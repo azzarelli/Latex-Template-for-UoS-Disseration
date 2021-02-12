@@ -267,27 +267,6 @@
    \cleardoublepage
 }\end{spacing}
 }
-%%%
-% New command includes Statement of
-%%%
-\newcommand\statementO{
-\btypeout{Statement of Originality}
-\addtotoc{Statement of Originality}
-
-\begin{spacing}{1}{
-    \setlength{\parskip}{1pt}
-    \if@twocolumn
-      \@restonecoltrue\onecolumn
-    \else
-      \@restonecolfalse
-    \fi
-    \include{SoO}
-    \@starttoc{lof}
-    \if@restonecol\twocolumn\fi
-    \cleardoublepage
-}\end{spacing}
-}
-
 
 \renewcommand\listoffigures{
 \btypeout{List of Figures}
