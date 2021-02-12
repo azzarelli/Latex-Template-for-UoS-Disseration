@@ -267,8 +267,10 @@
    \cleardoublepage
 }\end{spacing}
 }
-
-\newcommand\listo{
+%%%
+% New command includes Statement of
+%%%
+\newcommand\statementO{
 \btypeout{Statement of Originality}
 \addtotoc{Statement of Originality}
 
